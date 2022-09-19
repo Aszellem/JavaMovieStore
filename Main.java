@@ -1,6 +1,11 @@
+import models.*;
+
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("\n********************JAVA VIDEO STORE********************\n");
+        Movie movie = new Movie("Kill Bill", "Blue-Ray", 9.0);
+        System.out.println(movie);
 
     }
 
